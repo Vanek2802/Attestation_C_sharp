@@ -2,10 +2,10 @@
 // в промежутке от M до N. C помощью рекурсии.
 
 Console.Write (" Введите число М-");
-int m = Conver.ToInt32 ( Console.ReadLine ());
+int m = Convert.ToInt32 ( Console.ReadLine ());
 
 Console.Write (" Введите число N-");
-int n = Conver.ToInt32 ( Console.ReadLine ());
+int n = Convert.ToInt32 ( Console.ReadLine ());
 
 Sum_MN ( m, n );
 
