@@ -7,14 +7,14 @@ int m = Convert.ToInt32 ( Console.ReadLine ());
 Console.Write (" Введите число N-");
 int n = Convert.ToInt32 ( Console.ReadLine ());
 
-Sum_MN ( m, n );
+Sum_From_M_N ( m, n );
 
-void Sum_MN ( int m, int n );
+void Sum_From_M_N ( int m, int n )
 {
     Console.Write ( SumMN ( m - 1, n));
 }
 
-int Sum_MN ( int m, int n)
+int SumMN ( int m, int n)
 {
     int res = m;
     if ( m == n)
@@ -22,7 +22,7 @@ int Sum_MN ( int m, int n)
     else 
     {
         m++;
-        res = m + Sum_MN ( m, n );
+        res = m + SumMN ( m, n );
         return res;
     }    
 }
