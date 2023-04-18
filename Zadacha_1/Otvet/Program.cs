@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задайте значения M и N. Напишите программу, которая выведет все четные натуральные числа 
+// в промежутке от М до N с помощью рекурсии.
