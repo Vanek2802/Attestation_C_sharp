@@ -11,8 +11,9 @@ Sum_MN ( m, n );
 
 void Sum_MN ( int m, int n );
 {
-    Console.write ( Sum_MN ( m - 1, n));
+    Console.Write ( SumMN ( m - 1, n));
 }
+
 int Sum_MN ( int m, int n)
 {
     int res = m;
